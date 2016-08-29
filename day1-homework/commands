@@ -1,0 +1,5 @@
+gunzip SRR072893.fastq.gz
+fastqc SRR072893.fastq
+hisat2 -x BDGP6 -U SRR072893.fastq -S samfile
+samtools sort samfile -o samfile.bam
+stringtie samfile.bam -p 4 -e -G BDGP6.Ensembl.85.gtf -o samfileout.gtf -B
