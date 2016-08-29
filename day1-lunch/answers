@@ -19,3 +19,20 @@ attaaatatgatcgcgtatgcgagagtagtgccaacatattgtgctctctatataatgac
 tgcctctcattctgtcttattttaccgcaaacccaaatcgacaatgcacgacagaggaag
 cagaacagatatttagattgcctctcattttctctcccatattatagggagaaatatgat
   538689 14295836 154377746 BDGP6.Ensembl.85.gtf
+       1       3      30
+       1       3      30
+     514   13720  145765
+#!genebuild-last-updated 2014-09
+#!genome-build BDGP6
+#!genome-build-accession NCBI:GCA_000001215.4
+#!genome-date 2014-07
+#!genome-version BDGP6
+CDS
+Selenocysteine
+exon
+five_prime_utr
+gene
+start_codon
+stop_codon
+three_prime_utr
+transcript
