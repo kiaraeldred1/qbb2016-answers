@@ -1,0 +1,12 @@
+grep -v ^@ samfile | cut -f 3 | sort | uniq -c
+3034736 2L
+3651097 2R
+3177845 3L
+4227156 3R
+212988 4
+3082375 X
+10604 Y
+
+grep -v ^@ samfile | cut -f 4 | sort | uniq -c | sort >> position
+tail position
+2218 24903766
