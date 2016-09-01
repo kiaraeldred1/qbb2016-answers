@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 
+""""
+
+function: make a log scaled box plot of the FPKM values from two files.
+Usage: lunchBoxPlot.py file_1.ctab file_1.ctab
+
+"""
+
 import sys
 import pandas as pd
 import matplotlib.pyplot as plt
