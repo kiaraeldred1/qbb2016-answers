@@ -40,4 +40,4 @@ for ident, sequence in fasta.FASTAReader( open( target ) ):
         for i in range( 0, len( genome ) - k ):
             kmercompare = genome[ i : i+k ]
             if kmercompare in kmer_position:
-                print ident, kmer_position[ kmercompare ][0], i, kmercompare
+                print ident, kmer_position[ kmercompare ], i, kmercompare
