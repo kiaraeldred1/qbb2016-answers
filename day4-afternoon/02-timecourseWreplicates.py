@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-Function:
+Function: create a plot of the reletive mRNA abudances of Sxl based on rna-seq data over time points, comparing male vs female
 
 Usage: ./02-timecourseWreplicates.py <metadata.csv> <ctab_dir>
  e.g. ./02-timecourseWreplicates.py samples.csv ~dta/results/stringie
