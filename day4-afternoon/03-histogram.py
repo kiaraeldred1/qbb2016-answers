@@ -12,7 +12,9 @@ usage: ./03-histogram.py <datafile.ctab>
 import sys
 import pandas as pd
 import matplotlib.pyplot as plt
+plt.style.use('ggplot')
 import numpy as np
+
 
 #import data
 df = pd.read_table( sys.argv[1])
@@ -24,6 +26,6 @@ df_filter = df[ df_roi ]
 
 plt.figure()
 plt.title( "Histogram of SRR072893 FPKM Values")
-plt.hist( np.log( df_filter[ "FPKM" ] ) )
+plt.hist( np.log( df_filter[ "FPKM" ] ), bins=100 )
 plt.savefig( "histSRR072893.png")
 plt.close()
