@@ -2,3 +2,23 @@ wc -l BDGP6.Ensembl.85.gtf
   538689 BDGP6.Ensembl.85.gtf
 grep Sxl BDGP^.Ensembl.85.gtf | wc -l
      514
+grep -v ^# BDGP6.Ensembl.85.gtf | cut -f3 | sort | uniq
+CDS
+Selenocysteine
+exon
+five_prime_utr
+gene
+start_codon
+stop_codon
+three_prime_utr
+transcript
+grep -v ^# BDGP6.Ensembl.85.gtf| cut -f3 | sort | uniq -c
+160188 CDS
+   4 Selenocysteine
+186414 exon
+46060 five_prime_utr
+17559 gene
+30389 start_codon
+30296 stop_codon
+33034 three_prime_utr
+34740 transcript
