@@ -2,9 +2,9 @@
 
 """"
 
-Function: reate a histogram of the FPKM values for a ctab file
+Function: reate a density plot of the FPKM values for a ctab file
 
-usage: ./03-histogram.py <datafile.ctab>
+usage: ./05-densityPlot.py <datafile.ctab>
 
 """
 

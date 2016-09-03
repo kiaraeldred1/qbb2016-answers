@@ -1,4 +1,14 @@
 #!/usr/bin/env  python
+"""
+
+Function: find the promotor regions of all genes listed in the ctab data output file
+this is defined as 500 bps infront of and behind the start site possition
+Output: tab delimited bed file containing chromomsoem, start, end, and gene name of the promotor region in a .bed file
+
+Usage: ./findRegion.py <ctab_file>
+
+"""
+
 
 import sys
 import pandas as pd

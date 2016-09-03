@@ -1,5 +1,13 @@
 #!/usr/bin/env python
 
+""" 
+
+Function: calculate the linear regression of fpkm values compared to known histone modifications wihin promotor regions
+
+Usage: ./linearRegression.py <file_name.bed> <output_from_Big_Wig_file>
+
+"""
+
 #import packages
 import sys
 import pandas as pd

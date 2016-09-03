@@ -2,7 +2,7 @@
 
 """"
 
-Function: reate a histogram of the FPKM values for a ctab file
+Function: create a histogram of the FPKM values for a ctab file
 
 usage: ./03-histogram.py <datafile.ctab>
 
