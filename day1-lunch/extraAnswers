@@ -101,3 +101,6 @@ grep -v ^# BDGP6.Ensembl.85.gtf | head -100 | awk '{print  t  t  t  t -}'
 3R	-	2744758	2744800	42
 3R	-	2744304	2744698	394
 3R	-	2744305	2744800	495
+ 
+grep -v ^# BDGP6.Ensembl.85.gtf | awk '{ s += - } END  { print sum is, s,  average is, s/NR }' 
+sum is 613022884  average is 1138
